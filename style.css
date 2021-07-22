@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  background-color: aquamarine;
+  height: 100vh;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: aliceblue;
+  border-radius: 4px;
+
+  padding: 32px;
+}
+
+.frame {
+  border: 1px solid black;
+  height: 100%;
+}
